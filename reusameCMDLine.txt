@@ -1,0 +1,119 @@
+cd android
+./gradle clean
+cd..
+npx react-native run-android
+
+npm install react react-native react-navigation @reduxjs/toolkit react-redux react-native-elements styled-components axios react-hook-form yup moment react-native-vector-icons @react-native-async-storage/async-storage react-native-maps react-native-camera
+
+
+Helper CMDs:
+Core React Native Development
+react – Core React library.
+react-native – Core React Native framework.
+react-native-cli – Command-line interface for managing React Native projects.
+Navigation
+@react-navigation/native – Core navigation library.
+react-native-screens – Optimizes screen rendering for navigation.
+react-native-safe-area-context – Handles safe area for iOS and Android.
+@react-navigation/stack – Stack navigation for screen transitions.
+@react-navigation/bottom-tabs – Bottom tab navigation.
+@react-navigation/drawer – Drawer navigation for sliding menus.
+react-native-gesture-handler – Enables gesture-based navigation.
+react-native-reanimated – Animations for navigation and other components.
+react-native-vector-icons – Icons used in navigation and components.
+State Management
+Redux:
+@reduxjs/toolkit – Simplified Redux state management.
+react-redux – Connect React components with the Redux store.
+redux-persist – Persist Redux state across app restarts.
+Context API:
+Built into React; no additional libraries needed.
+MobX (Alternative):
+mobx – State management library.
+mobx-react – Integration with React components.
+Styling
+react-native-paper – Material Design components and themes.
+react-native-elements – Pre-built UI components.
+styled-components – CSS-in-JS styling for React Native.
+react-native-linear-gradient – Gradients for backgrounds and other UI elements.
+@emotion/native – Another CSS-in-JS styling library.
+Forms and Validation
+react-hook-form – Lightweight form management library.
+formik – Declarative form building and management.
+yup – Schema validation for form inputs.
+@react-native-community/datetimepicker – Date and time picker.
+API Integration
+axios – HTTP client for API requests.
+react-query – Data fetching and caching (alternative to Redux for API data).
+@apollo/client – Apollo Client for GraphQL APIs.
+Authentication
+@react-native-firebase/auth – Firebase authentication.
+react-native-keychain – Secure storage for credentials.
+expo-auth-session – OAuth authentication (e.g., Google, Facebook).
+Data Management
+async-storage – Local storage for simple key-value pairs.
+realm – Offline-first database for React Native.
+@react-native-async-storage/async-storage – AsyncStorage replacement.
+react-native-sqlite-storage – SQLite database support.
+redux-persist – State persistence for Redux.
+Network and WebSocket
+@react-native-community/netinfo – Monitor network state and connectivity.
+react-native-webview – Embed web content in your app.
+socket.io-client – Real-time communication using WebSockets.
+File Management
+react-native-fs – File system access.
+react-native-document-picker – File picker for documents.
+react-native-image-picker – Image and video picker.
+Media and Camera
+react-native-camera – Camera functionality.
+react-native-image-crop-picker – Advanced image and video picker.
+react-native-audio – Record and playback audio.
+react-native-video – Video playback.
+Notifications
+@react-native-firebase/messaging – Push notifications via Firebase.
+react-native-push-notification – Local and remote push notifications.
+expo-notifications – Push notifications with Expo.
+Testing
+jest – JavaScript testing framework.
+react-native-testing-library – Testing React Native components.
+detox – End-to-end testing.
+Localization
+react-i18next – Internationalization for React Native.
+i18n-js – Lightweight internationalization library.
+Payments
+react-native-stripe-sdk – Stripe integration.
+@stripe/stripe-react-native – Official Stripe React Native library.
+Maps and Geolocation
+react-native-maps – Map rendering and customization.
+@react-native-community/geolocation – Geolocation API for tracking location.
+Device Features
+react-native-device-info – Device-specific information.
+react-native-permissions – Manage app permissions.
+react-native-geolocation-service – High-accuracy geolocation.
+react-native-share – Sharing content to other apps.
+expo-location – Location services with Expo.
+Security
+react-native-encrypted-storage – Secure storage for sensitive data.
+react-native-keychain – Keychain support for secure credential storage.
+@hapi/joi – Input validation for security.
+Performance Optimization
+react-native-fast-image – Optimized image rendering.
+recyclerlistview – High-performance list for large datasets.
+react-native-mmkv – High-performance key-value storage.
+Analytics and Monitoring
+react-native-analytics – Track app analytics.
+@react-native-firebase/analytics – Firebase analytics.
+sentry-react-native – Error monitoring and logging.
+Other Utilities
+dotenv – Environment variable management.
+uuid – Generate unique IDs.
+moment or dayjs – Date and time manipulation.
+lodash – Utility functions for JavaScript.
+react-native-svg – SVG rendering.
+react-native-haptic-feedback – Haptic feedback on user interactions.
+Development and Debugging
+reactotron-react-native – Debugging and monitoring tool.
+eslint – Linting JavaScript/TypeScript code.
+prettier – Code formatting tool.
+metro-config – Custom Metro bundler configuration.
+react-devtools – React debugging tools.
